@@ -61,7 +61,7 @@ public class LocationUtils {
             if (player == null) return;
 
             Scoreboard scoreboard = player.getScoreboard();
-            ScoreboardObjective objective = scoreboard.getObjectiveForSlot(1);
+            ScoreboardObjective objective = scoreboard.getObjectiveForSlot();
             ObjectArrayList<Text> textLines = new ObjectArrayList<>();
             ObjectArrayList<String> stringLines = new ObjectArrayList<>();
 
